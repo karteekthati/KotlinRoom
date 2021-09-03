@@ -27,7 +27,7 @@ class MyRecyclerviewAdapterr(
        return subscribersList.size
     }
 }
-
+//pushing to new branch
 class MyViewHoler(val binding: ListItemBinding): RecyclerView.ViewHolder(binding.root){
     fun  bind(subscriber: Subscriber, clickListener: (Subscriber) -> Unit){
         binding.tvName.text = subscriber.name
