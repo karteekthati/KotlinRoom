@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    //testing for 2nd push
+    //testing for test branch under dev branch
     private fun initRecyclerView(){
         binding.rvSubscribers.layoutManager = LinearLayoutManager(this)
         displaySubscriberList()
